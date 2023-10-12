@@ -1,0 +1,45 @@
+Auteur: pz43zwu
+Date: 05.10.2023
+Entreprise: DGEP
+Description: vertical
+
+Voici les ordres du programme Vertical :
+	Masquer le curseur.
+	Effacer l'écran.
+	
+	Créer une zone mémoire #delai.
+	Afficher "Temps de pause (en milliseconde) : ".
+	Récupérer la saisie et la stocker dans #delai.
+
+	Répéter 5x
+
+		Créer une zone mémoire nommée #ligne.
+		Insérer le texte "|" dans la zone mémoire nommée #ligne.
+		
+		Créer une zone mémoire nommée #v.
+		Insérer le texte "v" dans la zone mémoire nommée #v.
+		
+		Placer le curseur à la colonne 1.
+		Placer le curseur à la ligne 1.
+		Afficher #ligne.
+		
+		Placer le curseur à la colonne 1.
+		Placer le curseur à la ligne 2.
+		Afficher #v.
+	
+	<<
+	
+	Copier le résultat de (#ligne + 1) dans la zone mémoire nommée #colonne.
+	Copier le résultat de (#v + 1) dans la zone mémoire nommée #colonne.
+
+		//Placer le curseur à la ligne 1.
+		//Afficher #ligne.
+	
+	
+
+
+
+
+
+	
+Fin de la transmission.

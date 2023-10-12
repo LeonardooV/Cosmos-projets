@@ -1,0 +1,74 @@
+Auteur: pz43zwu
+Date: 05.10.2023
+Entreprise: DGEP
+Description: Animation
+
+Voici les ordres du programme Animation :
+
+ 
+
+		//Base du programme
+	Créer une zone mémoire #delai.
+
+ 
+
+		Afficher "Temps de pause (en milliseconde): ".
+		Récupérer la saisie et la stocker dans #delai.
+
+ 
+
+			Attendre 1000ms.
+
+ 
+
+		//
+
+ 
+
+//
+
+ 
+
+	Créer une zone mémoire nommée #symbole.
+	Afficher "Symbole: ".
+	Récupérer la saisie et la stocker dans #symbole.
+
+ 
+
+		Placer le curseur à la colonne 1.
+		Afficher #symbole.
+		Attendre #delai ms.
+
+ 
+
+			Créer une zone mémoire nommée #colonne avec la valeur 1.
+
+ 
+
+				Répéter 10x
+					Placer le curseur à la colonne #colonne.
+					Afficher " ".
+
+ 
+
+						Copier le résultat de (#colonne + 1) dans la zone mémoire nommée #colonne.
+
+ 
+
+							Placer le curseur à la colonne #colonne.
+							Afficher #symbole.
+							Attendre #delai ms.	
+						>>
+				//
+
+ 
+
+		//
+
+ 
+
+//
+
+ 
+
+Fin de la transmission.

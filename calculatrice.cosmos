@@ -1,0 +1,51 @@
+Auteur: pz43zwu
+Date: 11.10.2023
+Entreprise: DGEP
+Description: calculatrice
+
+Voici les ordres du programme calculatrice  :
+
+	Masquer le curseur.
+	Effacer l'écran.
+	
+	
+	Créer une zone mémoire nommée #A.
+	Créer une zone mémoire nommée #B.
+	Créer une zone mémoire nommée #C.
+	Créer une zone mémoire nommée #D.
+	Créer une zone mémoire nommée #E.
+	Créer une zone mémoire nommée #F.
+	Créer une zone mémoire nommée #G.
+
+	Afficher "Opérande A:".
+	Récupérer la saisie et la stocker dans #A.
+
+	Afficher "Opérande B:".
+	Récupérer la saisie et la stocker dans #B.
+	
+	
+	Afficher "Opérateur:".
+	Récupérer la saisie et la stocker dans #C.
+	
+	
+	Si #C est égale à "+" alors
+	#G = #A + #B.
+	
+
+	sinon si #C est égale à "-" alors
+		#G = #A - #B.
+
+	?
+	
+	Si #C est égal à "*" alors
+	#G = #A * #B.
+	
+	sinon si #C est égal à "/" alors
+	#G = #A / #B.
+	?
+
+	Afficher "Résultat: #G".
+
+	
+	
+Fin de la transmission.

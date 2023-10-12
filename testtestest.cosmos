@@ -1,0 +1,46 @@
+	
+	
+	Créer une zone mémoire #delai.
+
+ 
+
+	Afficher "Temps de pause (en milliseconde): ".
+	Récupérer la saisie et la stocker dans #delai.
+
+	
+	Créer une zone mémoire nommée #symbole.
+	Afficher "Symbole: ".
+	Récupérer la saisie et la stocker dans #symbole.
+
+ 
+
+		Placer le curseur à la colonne 1.
+		Placer le curseur à la ligne 1.
+		Afficher #symbole.
+		Attendre #delai ms.
+
+ 
+
+			Créer une zone mémoire nommée #colonne avec la valeur 1.
+			Créer une zone mémoire nommée #ligne avec la valeur 1.
+
+ 
+
+				Répéter 10x
+					Placer le curseur à la colonne #colonne.
+					Placer le curseur à la ligne #ligne.
+					Afficher " ".
+
+ 
+
+						Copier le résultat de (#colonne + 1) dans la zone mémoire nommée #colonne.
+						Copier le résultat de (#ligne + 1) dans la zone mémoire nommée #colonne.
+
+ 
+
+							Placer le curseur à la colonne #colonne.
+							Placer le curseur à la colonne #ligne.
+							Afficher #symbole.
+							Attendre #delai ms.	
+						>>
+	Fin de la transmission.
